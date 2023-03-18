@@ -6,7 +6,6 @@ var sayHelloFunction = () => {
 //Here I assign the function to the button when cliccked!
 var btn = document.getElementById("helloBtn");
 btn.addEventListener("click", sayHelloFunction);
-
 //+++IMPORTANT+++
 //THIS IS THE SAME
 //btn.onclick = sayHelloFunction;
